@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+width: 375px;
+height: 48px;
+padding: 4px 24px 4px 12px;
+align-items: flex-start;
+gap: 199px;
+flex-shrink: 0;
+}
+
+.MyLogo{
+    color: var(--primary-b-400, #6070FF);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; 
+display: flex;
+padding: 10px 12px;
+align-items: center;
+}
+
+.menuicon{
+    display: flex;
+padding: 8px;
+align-items: flex-start;
+border-radius: 8px;
+width: 24px;
+height: 24px;
+}
