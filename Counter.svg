@@ -1,0 +1,33 @@
+<svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="8" height="8" fill="#E5E5E5"/>
+<g id="Template 1-Mobile-Main" clip-path="url(#clip0_0_1)">
+<rect width="375" height="5410" transform="translate(-107 -1140)" fill="#F7F7F9"/>
+<g id="Works">
+<g id="Card Works">
+<rect x="-82.5" y="-307.5" width="326" height="551" rx="15.5" fill="white"/>
+<g id="Left Block" clip-path="url(#clip1_0_1)">
+<g id="Primary Text" clip-path="url(#clip2_0_1)">
+<g id="Frame 2" clip-path="url(#clip3_0_1)">
+<circle id="Counter" cx="4" cy="4" r="4" fill="#C1C7D0"/>
+</g>
+</g>
+</g>
+<rect x="-82.5" y="-307.5" width="326" height="551" rx="15.5" stroke="#DFE1E6"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="375" height="5410" fill="white" transform="translate(-107 -1140)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="295" height="288" fill="white" transform="translate(-67 -60)"/>
+</clipPath>
+<clipPath id="clip2_0_1">
+<rect width="295" height="80" fill="white" transform="translate(-67 -60)"/>
+</clipPath>
+<clipPath id="clip3_0_1">
+<rect width="236" height="32" fill="white" transform="translate(-67 -12)"/>
+</clipPath>
+</defs>
+</svg>
