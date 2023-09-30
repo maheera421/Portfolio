@@ -618,13 +618,10 @@ input {
 }
 
 textarea {
-  width: 327px;
-  height: 170px;
+  width: 273px;
+  height: 140px;
   flex-shrink: 0;
-  border-radius: 8px;
-  border: 1px solid var(--base-100, #cfd8dc);
-  background: var(--mono-white, #fff);
-  color: var(--neutrals-n-60, #7a88a0);
+  color: var(--neutrals-n-60, #acb8ca);
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-style: normal;
