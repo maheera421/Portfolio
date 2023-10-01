@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="style.css">
-    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">-->
+
     <!--for font-weight 400-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-<!--for font-weight 700-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!--for font-weight 700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
-<!--for font-weight 500-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--for font-weight 500-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--HEADER AND MAIN PAGE-->
@@ -238,21 +238,29 @@
 
     <!-- Contact Me Form -->
     <section class="contactMe">
-        <p class="text_1">
-            Contact me
+        <p class="shapes">
+
+            <p class="text_1">
+                Contact me
+            </p>
+            <p class="text_2">
+                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+                I'd love to help with it!
+            </p>
+            <form class="contact_form" action="https://formspree.io/f/xyyqbewy"
+            method="POST">
+                <input class="name" type="text" placeholder="Your Name" required maxlength="30">
+                <input class="email" type="email" placeholder="youremail@gmail.com" required >
+                <textarea class="message" placeholder="Write your message here" name="message" cols="30" rows="10" required maxlength="500"></textarea>
+                <button class="get_in_touch" type="submit">
+                    Get In Touch
+                </button>
+            </form>
+            <footer class="end_bar">
+                <img src="Shape.png" alt="Footer Image">
+            </footer>
+            
         </p>
-        <p class="text_2">
-            If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I'd love to help with it!
-        </p>
-        <form class="contactForm">
-            <input class="name" type="text" placeholder="Your Name" required maxlength="30">
-            <input class="email" type="email" placeholder="youremail@gmail.com" required >
-            <textarea class="feedback" placeholder="Write your message here" name="feedback" cols="30" rows="10" required maxlength="500"></textarea>
-            <button class="getInTouch" type="submit">
-                Get In Touch
-            </button>
-        </form>
     </section>
 </body>
 </html>

@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  zoom: 0%;
+}
 
 .header {
   display: flex;
@@ -497,14 +502,31 @@
 }
 
 .contactMe {
+  position: relative;
+  z-index: 1;
   display: flex;
   width: 375px;
   height: 779px;
   flex-direction: column;
+  flex-shrink: 0;
   background-image: url(Contact\ me.png);
 }
 
+.shapes {
+  position: absolute;
+  margin-left: 110px;
+  z-index: 2;
+  width: 265px;
+  height: 709.166px;
+  background-size: cover;
+  fill: none;
+  flex-shrink: 0;
+  background-image: url(contact\ form\ shapes-mobile@2x.png);
+}
+
 .text_1 {
+  position: relative;
+  z-index: 3;
   display: flex;
   width: 375px;
   height: 56px;
@@ -523,6 +545,8 @@
 }
 
 .text_2 {
+  position: relative;
+  z-index: 3;
   display: flex;
   width: 327px;
   height: 137px;
@@ -539,7 +563,9 @@
   line-height: 28px;
 }
 
-.contactForm {
+.contact_form {
+  position: relative;
+  z-index: 3;
   display: flex;
   width: 375px;
   height: auto;
@@ -568,14 +594,14 @@
   background: var(--mono-white, #fff);
 }
 
-.feedback {
+.message {
   width: 100%;
   border-radius: 8px;
   border: 1px solid var(--base-100, #cfd8dc);
   background: var(--mono-white, #fff);
 }
 
-.getInTouch {
+.get_in_touch {
   border: 1px solid var(--base-100, #cfd8dc);
   display: inline-flex;
   width: 142px;
@@ -632,4 +658,22 @@ textarea {
 textarea:focus,
 input:focus {
   outline:  none;
+}
+
+.end_bar {
+  display: flex;
+  width: 132px;
+  height: 34px;
+  padding: 21px 121px 8px 120px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.end_bar img {
+  width: 134px;
+  height: 3px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--mono-black, #0d151e);
 }
