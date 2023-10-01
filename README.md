@@ -11,14 +11,14 @@
 - HTML file includes the main structure of the website, while CSS file defines the styling.
 - The website is designed to work on mobile screens.
 - External fonts are imported from Google Fonts to enhance typography.
-- The code makes use of CSS Flexbox for layout design, ensuring elements are properly aligned and responsive.
+- The code makes use of CSS Flexbox for layout design, ensuring elements are properly aligned.
 - Images and icons are used for visual elements throughout the website.
 - The CSS code specifies various font styles, sizes, colors, and spacing to ensure a visually appealing and consistent design.
 
 **🚀Code Features:**
 1. **Header:** The website includes a header with a logo and a menu icon for navigation.
 
-2. **Main Section (Headline):** This section introduces the developer Maheera, her skills, and invites visitors to connect on social media.
+2. **Main Section (Headline):** This section includes introduction, skills, and invites visitors to connect on social media.
 
 3. **Works Section:** The works section showcases multiple project cards. Each card displays an image, project name, details, tags, and a "See Project" button.
 
@@ -30,4 +30,4 @@
 
 7. **Footer:** The website features a footer with a decorative image.
 
-Overall, the "Portfolio" website serves as a professional online presence for me, showcasing my skills and work to potential collaborators and employers, while also providing a means for visitors to get in touch with me. The website is designed to be visually appealing, ensuring a seamless user experience on various devices.
+Overall, the "Portfolio" website serves as a professional online presence for me, showcasing my skills and work to potential collaborators and employers, while also providing a means for visitors to get in touch with me.
