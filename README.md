@@ -2,7 +2,7 @@
 
 **Project Description:**
 - **Project Name:** Portfolio
-- **Purpose:** The purpose of this project is to create a personal portfolio website to showcase the skills, work, and contact information of the software developer Maheera.
+- **Purpose:** The purpose of this project is to create a personal portfolio website to showcase the skills, work, and contact information.
 - **Technologies Used:** HTML and CSS are used to build the structure and style of the website.
 - **Fonts:** The website uses the "Poppins" font for various text elements.
 
