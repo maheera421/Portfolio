@@ -1,12 +1,12 @@
 # Portfolio
 
-**Project Description:**
+**📄Project Description:**
 - **Project Name:** Portfolio
 - **Purpose:** The purpose of this project is to create a personal portfolio website to showcase the skills, work, and contact information.
 - **Technologies Used:** HTML and CSS are used to build the structure and style of the website.
 - **Fonts:** The website uses the "Poppins" font for various text elements.
 
-**Code Specifications:**
+**⚙️Code Specifications:**
 - The project consists of an HTML file (`index.html`) and a CSS file (`style.css`).
 - HTML file includes the main structure of the website, while CSS file defines the styling.
 - The website is designed to work on mobile screens.
@@ -15,7 +15,7 @@
 - Images and icons are used for visual elements throughout the website.
 - The CSS code specifies various font styles, sizes, colors, and spacing to ensure a visually appealing and consistent design.
 
-**Website Features:**
+**🚀Code Features:**
 1. **Header:** The website includes a header with a logo and a menu icon for navigation.
 
 2. **Main Section (Headline):** This section introduces the developer Maheera, her skills, and invites visitors to connect on social media.
