@@ -11,6 +11,7 @@ body {
 @media screen and (max-width: 767px) {
   .whitebackground {
     background-image: url(header-background-mobile.svg);
+    background-repeat: no-repeat;
   }
 
   .header {
@@ -346,6 +347,7 @@ body {
 
   .aboutmyself {
     background-image: url(Base\ about\ my\ self\ mobile.png);
+    background-repeat: no-repeat;
     display: inline-flex;
     padding: 114px 24px;
     flex-direction: column;
@@ -742,6 +744,7 @@ body {
   .whitebackground {
     background-image: url(header\ background\ shape-desktop.svg);
     background-repeat: no-repeat;
+    object-fit: cover;
   }
 
   .header {
@@ -1092,16 +1095,16 @@ body {
   .tag3,
   .action,
   .projectbutton,
-  .button_normal {
+  .button_normal,
+  .end_bar {
     display: none;
   }
 
   .aboutmyself {
-    background-image: url(about\ myself\ -\ background-\ shape-\ desktop\ \(2\) .svg);
+    background-image: url(about\ myself\ -\ background-\ shape-\ desktop.png);
     width: 1440px;
-    height: 924px;
+    height: 668px;
     flex-shrink: 0;
-    fill: var(--neutrals-n-0, #fff);
   }
 
   .top {
@@ -1303,5 +1306,151 @@ body {
     height: 1px;
     flex-shrink: 0;
     background: var(--neutrals-n-40, #dfe1e6);
+  }
+
+  .contactMe {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 846px;
+    flex-shrink: 0;
+    background-image: url(contact\ form-\ background-shape-desktop.png);
+  }
+
+  .shapes {
+    position: absolute;
+    z-index: 2;
+    background-image: url(contact\ form\ background\ shapes@2x.png);
+    width: 1290.663px;
+    height: 718.699px;
+    flex-shrink: 0;
+    background-size: cover;
+    margin: 79px 75px;
+  }
+
+  .text_1 {
+    position: relative;
+    z-index: 3;
+    flex-shrink: 0;
+    display: flex;
+    width: 801px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--neutrals-n-0, #fff);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 103px;
+    align-self: center;
+  }
+
+  .text_2 {
+    position: relative;
+    z-index: 3;
+    width: 569px;
+    height: 102px;
+    color: var(--primary-b-50, #ebebff);
+    text-align: center;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 12px;
+  }
+
+  .contact_form {
+    position: relative;
+    z-index: 3;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    width: 447px;
+    height: auto;
+    margin-top: 52px;
+    padding-left: 728px;
+  }
+
+  .name {
+    border-radius: 8px;
+    display: flex;
+    width: 447px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: var(--neutral-n-800, #172b4d);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 16px;
+    border: 1px solid var(--base-100, #cfd8dc);
+    background: var(--mono-white, #fff);
+  }
+
+  .email {
+    display: flex;
+    width: 447px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--base-100, #cfd8dc);
+    background: var(--mono-white, #fff);
+    color: var(--neutral-n-800, #172b4d);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 16px;
+  }
+
+  .message {
+    display: flex;
+    width: 447px;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: var(--neutrals-n-60, #b3bac5);
+    padding-top: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 8px;
+    padding-left: 16px;
+  }
+
+  .get_in_touch {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--neutrals-n-0, #fff);
+    color: var(--primary-b-400, #6070ff);
+    border: 1px solid var(--base-100, #cfd8dc);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.51px;
+    text-wrap: nowrap;
   }
 }
