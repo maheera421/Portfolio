@@ -9,14 +9,15 @@
 **⚙️Code Specifications:**
 - The project consists of an HTML file (`index.html`) and a CSS file (`style.css`).
 - HTML file includes the main structure of the website, while CSS file defines the styling.
-- The website is designed to work on mobile screens.
+- The website is designed to work on both mobile screens and desktop.
 - External fonts are imported from Google Fonts to enhance typography.
 - The code makes use of CSS Flexbox for layout design, ensuring elements are properly aligned.
 - Images and icons are used for visual elements throughout the website.
+- Animations are added for all the buttons to make a creative user interface.
 - The CSS code specifies various font styles, sizes, colors, and spacing to ensure a visually appealing and consistent design.
 
 **🚀Code Features:**
-1. **Header:** The website includes a header with a logo and a menu icon for navigation.
+1. **Header:** The website includes a header with a logo and a menu icon/ options for navigation in mobile version and desktop version respectively.
 
 2. **Main Section (Headline):** This section includes introduction, skills, and invites visitors to connect on social media.
 
@@ -28,6 +29,6 @@
 
 6. **Contact Me Form:** The contact section allows visitors to send messages to me. It includes fields for name, email, and a message, along with a "Get In Touch" button.
 
-7. **Footer:** The website features a footer with a decorative image.
+7. **Footer:** The website features a footer.
 
-Overall, the "Portfolio" website serves as a professional online presence for me, showcasing my skills and work to potential collaborators and employers, while also providing a means for visitors to get in touch with me.
+Overall, the "Portfolio" responsive website serves as a professional online presence for me, showcasing my skills and work to potential collaborators and employers, while also providing a means for visitors to get in touch with me.
