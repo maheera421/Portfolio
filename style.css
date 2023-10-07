@@ -98,6 +98,9 @@ body {
   .icons {
     width: 170.167px;
     height: 20px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
   }
 
   .works {
@@ -341,7 +344,8 @@ body {
   .TAG3,
   .ACTION,
   .PROJECTBUTTON,
-  .BUTTON_NORMAL {
+  .BUTTON_NORMAL,
+  .frame4-3-5 {
     display: none;
   }
 
@@ -771,10 +775,25 @@ body {
     padding-left: 633px;
     width: 258px;
     height: 40px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(Item\ Navigation.png);
-    background-position: right center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .frame4-3-5 {
+    display: flex;
+    padding: 10px 12px;
+    align-items: center;
+    gap: 10px;
+    color: var(--neutrals-n-600, #344563);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
   }
 
   .headline {
@@ -828,8 +847,10 @@ body {
   }
 
   .icons {
-    width: 920px;
-    height: 98px;
+    width: 955px;
+    height: 28px;
+    display: flex;
+    align-items: center;
     flex-shrink: 0;
   }
 
@@ -1064,6 +1085,7 @@ body {
     border-radius: 8px;
     background: var(--primary-b-500, #4053fc);
     box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
+    transition: transform 0.3s, box-shadow 0.3s;
   }
 
   .BUTTON_NORMAL {
@@ -1169,6 +1191,7 @@ body {
     width: 18px;
     height: 20px;
     flex-shrink: 0;
+    transition: transform 0.3s, box-shadow 0.3s;
   }
 
   .mediumicon {
@@ -1178,6 +1201,7 @@ body {
     border-radius: 8px;
     width: 24px;
     height: 24px;
+    transition: transform 0.3s, box-shadow 0.3s;
   }
 
   .normalbutton {
@@ -1195,6 +1219,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.51px;
+    transition: transform 0.3s, box-shadow 0.3s;
   }
 
   .skill_list {
@@ -1299,6 +1324,7 @@ body {
     border-radius: 8px;
     width: 24px;
     height: 24px;
+    transition: transform 0.3s, box-shadow 0.3s;
   }
 
   .separator {
@@ -1452,5 +1478,18 @@ body {
     line-height: 24px;
     letter-spacing: 0.51px;
     text-wrap: nowrap;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .get_in_touch:hover,
+  .normalbutton:hover,
+  .icon:hover,
+  .mediumicon:hover,
+  .PROJECTBUTTON:hover,
+  .button8-9:hover,
+  .frame4-3-5:hover,
+  .hover-text:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 }
